@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\Exemplo1\exemplo7_1.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\Exemplo2\exemplo7_2.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\Exemplo3\exemplo7_3.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\Exemplo4\exemplo7_4.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\Exemplo5\exemplo7_5.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\Exemplo6\exemplo7_6.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>
+
+

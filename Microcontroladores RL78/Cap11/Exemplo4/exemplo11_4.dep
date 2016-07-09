@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3292610356</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo10_1.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\term.r87</file>
+      <file>$PROJ_DIR$\Debug\Exe\exemplo4_4.a87</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo7_1.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\distance.pbi</file>
+      <file>$PROJ_DIR$\exemplo7_4.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo7_3.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\term.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo11_4.r87</file>
+      <file>$PROJ_DIR$\terminal.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\bargraph.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo11_4.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo9_1.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo11_1.pbd</file>
+      <file>$PROJ_DIR$\exemplo7_1.c</file>
+      <file>$TOOLKIT_DIR$\lib\dlrl78nn1n.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo4_4.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo7_4.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo11_2.r87</file>
+      <file>$PROJ_DIR$\Debug\List\exemplo11_4.map</file>
+      <file>$PROJ_DIR$\exemplo5_1.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo7_4.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo11_1.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo7_6.r87</file>
+      <file>$TOOLKIT_DIR$\config\lnkr5f100le.xcl</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo7_3.pbi</file>
+      <file>$PROJ_DIR$\exemplo4_1.c</file>
+      <file>$PROJ_DIR$\exemplo11_2.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo11_4.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo7_6.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo4_2.r87</file>
+      <file>$PROJ_DIR$\lcd.c</file>
+      <file>$PROJ_DIR$\distance.c</file>
+      <file>$PROJ_DIR$\bargraph.c</file>
+      <file>$PROJ_DIR$\Debug\Exe\exemplo4_4.d87</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo10_1.pbi</file>
+      <file>$PROJ_DIR$\exemplo9_1.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo11_2.pbi</file>
+      <file>$PROJ_DIR$\myrl78.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\exemplo11_4.d87</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo8_1.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\ior5f100le_ext.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo4_1.pbi</file>
+      <file>$PROJ_DIR$\lcd_8x2.c</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo4_1.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo4_2.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\exemplo4_2.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\bargraph.r87</file>
+      <file>$PROJ_DIR$\exemplo7_6.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo5_1.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo9_1.r87</file>
+      <file>$PROJ_DIR$\exemplo8_1.c</file>
+      <file>$PROJ_DIR$\term.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo5_1.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\exemplo11_1.d87</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo8_1.r87</file>
+      <file>$PROJ_DIR$\exemplo10_1.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo7_1.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo4_4.pbi</file>
+      <file>$PROJ_DIR$\exemplo4_4.c</file>
+      <file>$PROJ_DIR$\exemplo7_3.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\distance.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo11_1.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\terminal.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo4_4.pbd</file>
+      <file>$PROJ_DIR$\exemplo11_4.c</file>
+      <file>$TOOLKIT_DIR$\inc\ior5f100le.h</file>
+      <file>$PROJ_DIR$\exemplo11_1.c</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 40 20</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\exemplo4_4.a87</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 25 31 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\exemplo7_4.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 70 42 46 39</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70 42 46 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\terminal.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 70 42 46 39 44</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70 42 46 39 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\exemplo11_1.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 4</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\exemplo7_1.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 61</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 70 42 46 39</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70 42 46 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\exemplo5_1.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 70 42 46 39 32</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70 42 46 39 32</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\exemplo4_1.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 70 42 46 39</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70 42 46 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\exemplo11_2.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 70 42 46 39 32</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70 42 46 39 32</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\exemplo11_4.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\distance.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 65</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 70 42 46 39 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\bargraph.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 70 42 46 39 44</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70 42 46 39 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\exemplo4_4.d87</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 25 17 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\exemplo9_1.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 70 42 46 39</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70 42 46 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\exemplo11_4.d87</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 20</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 25 8 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 13</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 70 42 46 39</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70 42 46 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\exemplo4_2.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 70 42 46 39</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70 42 46 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\exemplo7_6.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 24</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 70 42 46 39</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70 42 46 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\exemplo8_1.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 70 42 46 39</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70 42 46 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\term.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 1</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 70 42 46 39 44</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70 42 46 39 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\exemplo11_1.d87</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 25 65 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\exemplo10_1.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 0</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 70 42 46 39</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70 42 46 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\exemplo4_4.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 70 42 46 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\exemplo7_3.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 70 42 46 39</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70 42 46 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\exemplo4_4.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 62</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\exemplo11_4.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 70 42 46 39 44</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70 42 46 39 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\exemplo11_1.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 23</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 70 42 46 39 44</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70 42 46 39 44</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs>
+      <file>$PROJ_DIR$\Release\Obj\exemplo9_1.r87</file>
+      <file>$PROJ_DIR$\Release\Exe\exemplo4_4.a87</file>
+      <file>$TOOLKIT_DIR$\lib\dlrl78nn1n.r87</file>
+      <file>$PROJ_DIR$\Release\Obj\exemplo9_1.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\exemplo4_2.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\exemplo4_2.r87</file>
+      <file>$TOOLKIT_DIR$\config\lnkr5f100le.xcl</file>
+      <file>$PROJ_DIR$\Release\Obj\exemplo11_4.pbd</file>
+      <file>$PROJ_DIR$\Release\Exe\exemplo11_4.a87</file>
+      <file>$PROJ_DIR$\Release\Obj\exemplo11_4.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\exemplo4_4.pbd</file>
+      <file>$PROJ_DIR$\exemplo9_1.c</file>
+      <file>$PROJ_DIR$\myrl78.h</file>
+      <file>$TOOLKIT_DIR$\inc\ior5f100le_ext.h</file>
+      <file>$PROJ_DIR$\lcd_8x2.c</file>
+      <file>$PROJ_DIR$\Release\Obj\exemplo11_4.r87</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\Release\Exe\exemplo4_4.hex</file>
+      <file>$PROJ_DIR$\exemplo4_2.c</file>
+      <file>$PROJ_DIR$\exemplo11_4.c</file>
+      <file>$TOOLKIT_DIR$\inc\ior5f100le.h</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 17 8</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Exe\exemplo4_4.a87</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 6 5 2</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Obj\exemplo11_4.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Exe\exemplo11_4.a87</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 6 15 2</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Obj\exemplo4_4.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 4</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\exemplo9_1.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 0</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20 13 16 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\exemplo4_2.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 20 13 16 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20 13 16 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\exemplo11_4.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 20 13 16 12 14</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20 13 16 12 14</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+</project>
+
+

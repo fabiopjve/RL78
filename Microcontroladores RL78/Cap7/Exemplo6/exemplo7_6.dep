@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3528199853</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\exemplo7_2.c</file>
+      <file>$PROJ_DIR$\Debug\List\exemplo7_6.map</file>
+      <file>$PROJ_DIR$\Debug\Exe\exemplo7_6.d87</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo7_2.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo7_1.pbd</file>
+      <file>$PROJ_DIR$\Debug\Exe\exemplo7_4.d87</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo7_6.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo7_6.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo7_5.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo7_4.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo7_5.r87</file>
+      <file>$PROJ_DIR$\exemplo7_1.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo7_6.r87</file>
+      <file>$TOOLKIT_DIR$\inc\ior5f100le_ext.h</file>
+      <file>$TOOLKIT_DIR$\inc\ior5f100le.h</file>
+      <file>$PROJ_DIR$\exemplo7_5.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo7_1.r87</file>
+      <file>$PROJ_DIR$\exemplo7_6.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo7_5.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo7_3.r87</file>
+      <file>$PROJ_DIR$\myrl78.h</file>
+      <file>$PROJ_DIR$\exemplo6_1.c</file>
+      <file>$PROJ_DIR$\Debug\Exe\exemplo7_2.d87</file>
+      <file>$PROJ_DIR$\exemplo7_3.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo7_2.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo7_3.pbi</file>
+      <file>$PROJ_DIR$\exemplo7_4.c</file>
+      <file>$TOOLKIT_DIR$\config\lnkr5f100le.xcl</file>
+      <file>$PROJ_DIR$\Debug\Exe\exemplo7_3.d87</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo7_4.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo6_1.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo7_3.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo7_4.pbd</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo6_1.pbd</file>
+      <file>$TOOLKIT_DIR$\lib\dlrl78nn1n.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo7_1.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo7_2.r87</file>
+      <file>$PROJ_DIR$\Debug\Exe\exemplo7_5.d87</file>
+      <file>$PROJ_DIR$\Debug\Obj\exemplo6_1.pbi</file>
+      <file>$PROJ_DIR$\Debug\List\exemplo7_3.map</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\exemplo7_2.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 14 13 33 20</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\exemplo7_6.d87</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 1</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 27 12 35</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\exemplo7_2.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 24</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\exemplo7_1.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 36</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\exemplo7_6.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 7</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\exemplo7_1.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\exemplo7_5.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\exemplo7_6.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 14 13 33 20</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14 13 33 20</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\exemplo7_5.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\exemplo6_1.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\exemplo7_2.d87</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 27 37 35</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\exemplo7_3.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 14 13 33 20</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 2 1</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\exemplo7_4.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\exemplo7_3.d87</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 27 19 35</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\exemplo7_3.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 25</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\exemplo7_4.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\exemplo6_1.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 39</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

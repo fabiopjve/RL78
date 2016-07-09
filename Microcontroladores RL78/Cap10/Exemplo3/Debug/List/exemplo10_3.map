@@ -1,0 +1,889 @@
+################################################################################
+#                                                                              #
+#      IAR Universal Linker V5.1.0.8                                           #
+#                                                                              #
+#           Link time     =  28/Apr/2013  22:39:18                             #
+#           Target CPU    =  RL78                                              #
+#           List file     =  Z:\RL78\livro\Cap10\Exemplo3\Debug\List\exemplo10 #
+#                            _3.map                                            #
+#           Output file 1 =  Z:\RL78\livro\Cap10\Exemplo3\Debug\Exe\exemplo10_ #
+#                            3.d87                                             #
+#                            Format: debug                                     #
+#                            UBROF version 10.0.3                              #
+#                            Using library modules for C-SPY (-rt)             #
+#           Command line  =  Z:\RL78\livro\Cap10\Exemplo3\Debug\Obj\exemplo10_ #
+#                            3.r87                                             #
+#                            -o                                                #
+#                            Z:\RL78\livro\Cap10\Exemplo3\Debug\Exe\exemplo10_ #
+#                            3.d87                                             #
+#                            -l                                                #
+#                            Z:\RL78\livro\Cap10\Exemplo3\Debug\List\exemplo10 #
+#                            _3.map                                            #
+#                            -xmsno                                            #
+#                            "-IC:\Aquivos de Programas\IAR Systems\Embedded W #
+#                            orkbench 6.0 Kickstart_0\rl78\LIB\"               #
+#                            -f                                                #
+#                            "C:\Aquivos de Programas\IAR Systems\Embedded Wor #
+#                            kbench 6.0 Kickstart_0\rl78\CONFIG\lnkr5f100le.xc #
+#                            l"                                                #
+#                            (-cRL78 -Z(CODE)INTVEC=00000-0007F                #
+#                            -Z(CODE)CLTVEC=00080-000BD                        #
+#                            -Z(CODE)OPTBYTE=000C0-000C3                       #
+#                            -Z(CODE)SECUID=000C4-000CD                        #
+#                            -Z(CONST)FAR_ID#0FBFF -Z(DATA)FAR_I=FEF00-FFE1F   #
+#                            -Z(CODE)RCODE,CODE=000D8-0FBFF                    #
+#                            -Z(CONST)NEAR_ID=[000D8-0FBFF]/10000              #
+#                            -Z(CONST)SADDR_ID=[000D8-0FBFF]/10000             #
+#                            -Z(CONST)DIFUNCT=[000D8-0FBFF]/10000              #
+#                            -Z(CONST)NEAR_CONST=_NEAR_CONST_LOCATION_START-_N #
+#                            EAR_CONST_LOCATION_END                            #
+#                            -Z(CONST)SWITCH=000D8-0FBFF                       #
+#                            -P(CONST)FAR_CONST,FSWITCH=[000D8-0FBFF]/10000    #
+#                            -P(CODE)XCODE=[000D8-0FBFF]/10000                 #
+#                            -Z(DATA)EEPROM=F1000-F1FFF                        #
+#                            -Z(DATA)WRKSEG=FFE20-FFEDF                        #
+#                            -Z(DATA)SADDR_I,SADDR_Z,SADDR_N=FFE20-FFEDF       #
+#                            -Z(DATA)NEAR_I,NEAR_Z,NEAR_N=FEF00-FFE1F          #
+#                            -Z(DATA)FAR_Z=[FEF00-FFE1F]/10000                 #
+#                            -P(DATA)FAR_N=[FEF00-FFE1F]/10000                 #
+#                            -Z(DATA)NEAR_HEAP+_NEAR_HEAP_SIZE=FEF00-FFE1F     #
+#                            -Z(DATA)FAR_HEAP+_FAR_HEAP_SIZE=[FEF00-FFE1F]/100 #
+#                            00                                                #
+#                            -Z(DATA)CSTACK+_CSTACK_SIZE=FEF00-FFE1F) -rt -s   #
+#                            __program_start -D_NEAR_CONST_LOCATION=0          #
+#                            -D_NEAR_CONST_LOCATION_START=2000                 #
+#                            -D_NEAR_CONST_LOCATION_END=EEFF                   #
+#                            "C:\Aquivos de Programas\IAR Systems\Embedded Wor #
+#                            kbench 6.0 Kickstart_0\rl78\LIB\dlrl78nn1n.r87"   #
+#                            -e_PrintfSmall=_Printf -e_ScanfSmall=_Scanf       #
+#                            -D_CSTACK_SIZE=80 -D_NEAR_HEAP_SIZE=100           #
+#                            -D_FAR_HEAP_SIZE=1000                             #
+#                                                                              #
+#                           Copyright (C) 1987-2011 IAR Systems AB.            #
+################################################################################
+
+
+
+
+
+                ****************************************
+                *                                      *
+                *           CROSS REFERENCE            *
+                *                                      *
+                ****************************************
+
+       Program entry at :           000000E0  Relocatable, from module : ?CSTARTUP
+
+
+
+
+                ****************************************
+                *                                      *
+                *            RUNTIME MODEL             *
+                *                                      *
+                ****************************************
+
+  __Heap_Handler             = Basic
+  __SystemLibrary            = DLib
+  __code_model               = near
+  __core                     = rl78_1
+  __data_model               = near
+  __dlib_file_descriptor     = 0
+  __dlib_full_locale_support = 0
+  __rt_version               = 1
+
+
+
+                ****************************************
+                *                                      *
+                *              MODULE MAP              *
+                *                                      *
+                ****************************************
+
+
+  DEFINED ABSOLUTE ENTRIES
+    *************************************************************************
+
+  DEFINED ABSOLUTE ENTRIES
+  PROGRAM MODULE, NAME : ?ABS_ENTRY_MOD
+
+Absolute parts
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _FAR_HEAP_SIZE          00001000 
+           _NEAR_HEAP_SIZE         00000100 
+           _CSTACK_SIZE            00000080 
+           _NEAR_CONST_LOCATION_END
+                                   0000EEFF 
+           _NEAR_CONST_LOCATION_START
+                                   00002000 
+           _NEAR_CONST_LOCATION    00000000        Segment part 3 (?CSTARTUP)
+    *************************************************************************
+
+  FILE NAME : Z:\RL78\livro\Cap10\Exemplo3\Debug\Obj\exemplo10_3.r87
+  PROGRAM MODULE, NAME : exemplo10_3
+
+  SEGMENTS IN THE MODULE
+  ======================
+SADDR_A
+  Relative segment, address: 000FFF01 - 000FFF01 (0x1 bytes), align: 0
+  Segment part 1. ROOT.       Intra module refs:   MCU_init
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_P1                   000FFF01 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           P1                      000FFF01 
+           P1_bit                  000FFF01 
+    -------------------------------------------------------------------------
+SADDR_A
+  Relative segment, address: 000FFF07 - 000FFF07 (0x1 bytes), align: 0
+  Segment part 2. ROOT.       Intra module refs:   MCU_init
+                                                   trata_rx_UART2
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_P7                   000FFF07 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           P7                      000FFF07 
+           P7_bit                  000FFF07 
+    -------------------------------------------------------------------------
+NEAR_A
+  Relative segment, address: 000FFF21 - 000FFF21 (0x1 bytes), align: 0
+  Segment part 3. ROOT.       Intra module refs:   MCU_init
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PM1                  000FFF21 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PM1                     000FFF21 
+           PM1_bit                 000FFF21 
+    -------------------------------------------------------------------------
+NEAR_A
+  Relative segment, address: 000FFF27 - 000FFF27 (0x1 bytes), align: 0
+  Segment part 4. ROOT.       Intra module refs:   MCU_init
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PM7                  000FFF27 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PM7                     000FFF27 
+           PM7_bit                 000FFF27 
+    -------------------------------------------------------------------------
+NEAR_A
+  Relative segment, address: 000FFF48 - 000FFF49 (0x2 bytes), align: 0
+  Segment part 5. ROOT.       Intra module refs:   MCU_init
+                                                   tx_UART2
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_SDR10                000FFF48 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           SDR10                   000FFF48 
+           SIO20                   000FFF48 
+           TXD2                    000FFF48 
+    -------------------------------------------------------------------------
+NEAR_A
+  Relative segment, address: 000FFF4A - 000FFF4B (0x2 bytes), align: 0
+  Segment part 6. ROOT.       Intra module refs:   MCU_init
+                                                   trata_rx_UART2
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_SDR11                000FFF4A 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           RXD2                    000FFF4A 
+           SDR11                   000FFF4A 
+           SIO21                   000FFF4A 
+    -------------------------------------------------------------------------
+NEAR_A
+  Relative segment, address: 000FFFB0 - 000FFFB0 (0x1 bytes), align: 0
+  Segment part 7. ROOT.       Intra module refs:   tx_UART2
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           DSA0                    000FFFB0 
+    -------------------------------------------------------------------------
+NEAR_A
+  Relative segment, address: 000FFFB2 - 000FFFB3 (0x2 bytes), align: 0
+  Segment part 8. ROOT.       Intra module refs:   tx_UART2
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_DRA0                 000FFFB2 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           DRA0                    000FFFB2 
+           DRA0H                   000FFFB3 
+           DRA0L                   000FFFB2 
+    -------------------------------------------------------------------------
+NEAR_A
+  Relative segment, address: 000FFFB6 - 000FFFB7 (0x2 bytes), align: 0
+  Segment part 9. ROOT.       Intra module refs:   tx_UART2
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_DBC0                 000FFFB6 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           DBC0                    000FFFB6 
+           DBC0H                   000FFFB7 
+           DBC0L                   000FFFB6 
+    -------------------------------------------------------------------------
+NEAR_A
+  Relative segment, address: 000FFFBA - 000FFFBA (0x1 bytes), align: 0
+  Segment part 10. ROOT.      Intra module refs:   tx_UART2
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_DMC0                 000FFFBA 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           DMC0                    000FFFBA 
+           DMC0_bit                000FFFBA 
+    -------------------------------------------------------------------------
+NEAR_A
+  Relative segment, address: 000FFFBC - 000FFFBC (0x1 bytes), align: 0
+  Segment part 11. ROOT.      Intra module refs:   trata_DMA_tx_uart2
+                                                   tx_UART2
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_DRC0                 000FFFBC 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           DRC0                    000FFFBC 
+           DRC0_bit                000FFFBC 
+    -------------------------------------------------------------------------
+NEAR_A
+  Relative segment, address: 000FFFE4 - 000FFFE5 (0x2 bytes), align: 0
+  Segment part 12. ROOT.      Intra module refs:   MCU_init
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_MK0                  000FFFE4 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           MK0                     000FFFE4 
+           MK0H                    000FFFE5 
+           MK0H_bit                000FFFE5 
+           MK0L                    000FFFE4 
+           MK0L_bit                000FFFE4 
+    -------------------------------------------------------------------------
+NEAR_A
+  Relative segment, address: 000F0070 - 000F0070 (0x1 bytes), align: 0
+  Segment part 13. ROOT.      Intra module refs:   MCU_init
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_NFEN0                000F0070 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           NFEN0                   000F0070 
+           NFEN0_bit               000F0070 
+    -------------------------------------------------------------------------
+NEAR_A
+  Relative segment, address: 000F00F0 - 000F00F0 (0x1 bytes), align: 0
+  Segment part 14. ROOT.      Intra module refs:   MCU_init
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PER0                 000F00F0 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PER0                    000F00F0 
+           PER0_bit                000F00F0 
+    -------------------------------------------------------------------------
+NEAR_A
+  Relative segment, address: 000F0150 - 000F0151 (0x2 bytes), align: 0
+  Segment part 15. ROOT.      Intra module refs:   MCU_init
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SMR10                   000F0150 
+    -------------------------------------------------------------------------
+NEAR_A
+  Relative segment, address: 000F0152 - 000F0153 (0x2 bytes), align: 0
+  Segment part 16. ROOT.      Intra module refs:   MCU_init
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SMR11                   000F0152 
+    -------------------------------------------------------------------------
+NEAR_A
+  Relative segment, address: 000F0158 - 000F0159 (0x2 bytes), align: 0
+  Segment part 17. ROOT.      Intra module refs:   MCU_init
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SCR10                   000F0158 
+    -------------------------------------------------------------------------
+NEAR_A
+  Relative segment, address: 000F015A - 000F015B (0x2 bytes), align: 0
+  Segment part 18. ROOT.      Intra module refs:   MCU_init
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SCR11                   000F015A 
+    -------------------------------------------------------------------------
+NEAR_A
+  Relative segment, address: 000F0162 - 000F0163 (0x2 bytes), align: 0
+  Segment part 19. ROOT.      Intra module refs:   MCU_init
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_SS1                  000F0162 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           SS1                     000F0162 
+           SS1L                    000F0162 
+           SS1L_bit                000F0162 
+    -------------------------------------------------------------------------
+NEAR_A
+  Relative segment, address: 000F0166 - 000F0167 (0x2 bytes), align: 0
+  Segment part 20. ROOT.      Intra module refs:   MCU_init
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_SPS1                 000F0166 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           SPS1                    000F0166 
+           SPS1L                   000F0166 
+    -------------------------------------------------------------------------
+NEAR_A
+  Relative segment, address: 000F0168 - 000F0169 (0x2 bytes), align: 0
+  Segment part 21. ROOT.      Intra module refs:   MCU_init
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SO1                     000F0168 
+    -------------------------------------------------------------------------
+NEAR_A
+  Relative segment, address: 000F016A - 000F016B (0x2 bytes), align: 0
+  Segment part 22. ROOT.      Intra module refs:   MCU_init
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_SOE1                 000F016A 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           SOE1                    000F016A 
+           SOE1L                   000F016A 
+           SOE1L_bit               000F016A 
+    -------------------------------------------------------------------------
+OPTBYTE
+  Relative segment, address: 000000C0 - 000000C0 (0x1 bytes), align: 0
+  Segment part 30. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           opbyte0                 000000C0 
+    -------------------------------------------------------------------------
+OPTBYTE
+  Relative segment, address: 000000C1 - 000000C1 (0x1 bytes), align: 0
+  Segment part 31. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           opbyte1                 000000C1 
+    -------------------------------------------------------------------------
+OPTBYTE
+  Relative segment, address: 000000C2 - 000000C2 (0x1 bytes), align: 0
+  Segment part 32. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           opbyte2                 000000C2 
+    -------------------------------------------------------------------------
+OPTBYTE
+  Relative segment, address: 000000C3 - 000000C3 (0x1 bytes), align: 0
+  Segment part 33. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           opbyte3                 000000C3 
+    -------------------------------------------------------------------------
+SECUID
+  Relative segment, address: 000000C4 - 000000CD (0xa bytes), align: 1
+  Segment part 34. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           senha                   000000C4 
+    -------------------------------------------------------------------------
+NEAR_Z
+  Relative segment, address: 000FEF00 - 000FEF1F (0x20 bytes), align: 1
+  Segment part 35.            Intra module refs:   tx_UART2
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           tx_buffer               000FEF00 
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 0000012C - 00000159 (0x2e bytes), align: 0
+  Segment part 36.            Intra module refs:   trata_rx_UART2::??INTVEC 22
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           trata_rx_UART2          0000012C 
+               interrupt function
+               calls direct
+               CSTACK = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 0000015A - 0000015B (0x2 bytes), align: 0
+  Segment part 37.            Intra module refs:   trata_tx_UART2::??INTVEC 20
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           trata_tx_UART2          0000015A 
+               interrupt function
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 0000015C - 00000160 (0x5 bytes), align: 0
+  Segment part 38.            Intra module refs:   trata_DMA_tx_uart2::??INTVEC 26
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           trata_DMA_tx_uart2      0000015C 
+               interrupt function
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 00000161 - 000001B3 (0x53 bytes), align: 0
+  Segment part 39.            Intra module refs:   main
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           MCU_init                00000161 
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 000001B4 - 000001E9 (0x36 bytes), align: 0
+  Segment part 40.            Intra module refs:   main
+                                                   trata_rx_UART2
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           tx_UART2                000001B4 
+               CSTACK = 00000008 ( 00000002 )
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 000001EA - 000001F4 (0xb bytes), align: 0
+  Segment part 41.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           main                    000001EA        Segment part 1 (?__MAIN_CALL)
+               calls direct
+    -------------------------------------------------------------------------
+INTVEC
+  Common segment, address: 00000000 - 00000015 (0x16 bytes), align: 1
+  Segment part 23. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           trata_tx_UART2::??INTVEC 20
+                                   00000014 
+    -------------------------------------------------------------------------
+INTVEC
+  Common segment, address: 00000000 - 00000017 (0x18 bytes), align: 1
+  Segment part 24. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           trata_rx_UART2::??INTVEC 22
+                                   00000016 
+    -------------------------------------------------------------------------
+INTVEC
+  Common segment, address: 00000000 - 0000001B (0x1c bytes), align: 1
+  Segment part 25. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           trata_DMA_tx_uart2::??INTVEC 26
+                                   0000001A 
+    -------------------------------------------------------------------------
+NEAR_CONST
+  Relative segment, address: 00002000 - 00002009 (0xa bytes), align: 1
+  Segment part 27.            Intra module refs:   trata_rx_UART2
+    -------------------------------------------------------------------------
+NEAR_CONST
+  Relative segment, address: 0000200A - 00002011 (0x8 bytes), align: 1
+  Segment part 28.            Intra module refs:   trata_rx_UART2
+    -------------------------------------------------------------------------
+NEAR_CONST
+  Relative segment, address: 00002012 - 00002029 (0x18 bytes), align: 1
+  Segment part 29.            Intra module refs:   main
+
+    *************************************************************************
+
+  FILE NAME : C:\Aquivos de Programas\IAR Systems\Embedded Workbench 6.0 Kickstart_0\rl78\LIB\dlrl78nn1n.r87
+  LIBRARY MODULE, NAME : ?__dbg_break
+
+  SEGMENTS IN THE MODULE
+  ======================
+CODE
+  Relative segment, address: 000001F5 - 000001F7 (0x3 bytes), align: 0
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __DebugBreak            000001F5        __exit (?__exit)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?__exit
+
+  SEGMENTS IN THE MODULE
+  ======================
+CODE
+  Relative segment, address: 000001F8 - 00000207 (0x10 bytes), align: 0
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __exit                  000001F8        Segment part 3 (?_exit)
+               calls direct
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?_exit
+
+  SEGMENTS IN THE MODULE
+  ======================
+RCODE
+  Relative segment, address: 000000D8 - 000000DB (0x4 bytes), align: 0
+  Segment part 1.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __cstart_call_dtors     000000D9 
+           _exit                   000000D8        exit (?exit)
+    -------------------------------------------------------------------------
+RCODE
+  Relative segment, address: 000000DC - 000000DF (0x4 bytes), align: 0
+  Segment part 3.             Intra module refs:   Segment part 1
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?cppinit
+
+  SEGMENTS IN THE MODULE
+  ======================
+NEAR_Z
+  Relative segment, address: 000FEF20 - 000FEF21 (0x2 bytes), align: 1
+  Segment part 2.             Intra module refs:   __call_dtors
+    -------------------------------------------------------------------------
+CODE
+  Relative segment, address: 00000208 - 00000235 (0x2e bytes), align: 0
+  Segment part 7.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __call_dtors            00000208        Segment part 1 (?_exit)
+               calls indirect
+               CSTACK = 00000000 ( 00000002 )
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?CSTARTUP
+
+  SEGMENTS IN THE MODULE
+  ======================
+CSTACK
+  Relative segment, address: 000FEF22, align: 1
+  Segment part 1. ROOT.
+    -------------------------------------------------------------------------
+INTVEC
+  Common segment, address: 00000000 - 00000001 (0x2 bytes), align: 1
+  Segment part 2. ROOT.
+    -------------------------------------------------------------------------
+RCODE
+  Relative segment, address: 000000E0 - 0000010E (0x2f bytes), align: 0
+  Segment part 3. ROOT.       Intra module refs:   Segment part 2
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?C_STARTUP              000000E0 
+           @cstart                 000000E0 
+           __program_start         000000E0        Absolute parts (?ABS_ENTRY_MOD)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?__INIT_FAR_Z
+
+  SEGMENTS IN THE MODULE
+  ======================
+FAR_Z
+  Relative segment, address: 000FEF22, align: 0
+  Segment part 1. ROOT.
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?__INIT_NEAR_Z
+
+  SEGMENTS IN THE MODULE
+  ======================
+NEAR_Z
+  Relative segment, address: 000FEF22, align: 0
+  Segment part 1. ROOT.
+    -------------------------------------------------------------------------
+RCODE
+  Relative segment, address: 0000010F - 00000121 (0x13 bytes), align: 0
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __INIT_NEAR_Z           0000010F        Segment part 2 (?cppinit)
+                                                   tx_buffer (exemplo10_3)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?__MAIN_CALL
+
+  SEGMENTS IN THE MODULE
+  ======================
+RCODE
+  Relative segment, address: 00000122 - 00000127 (0x6 bytes), align: 0
+  Segment part 1.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           @cend                   00000128 
+           __MAIN_CALL             00000122        Segment part 3 (?CSTARTUP)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?__low_level_init_stub
+
+  SEGMENTS IN THE MODULE
+  ======================
+RCODE
+  Relative segment, address: 00000128 - 0000012B (0x4 bytes), align: 0
+  Segment part 1.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __low_level_init        00000128        Segment part 3 (?CSTARTUP)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?exit
+
+  SEGMENTS IN THE MODULE
+  ======================
+CODE
+  Relative segment, address: 00000236 - 00000238 (0x3 bytes), align: 0
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           exit                    00000236        Segment part 1 (?__MAIN_CALL)
+               calls direct
+
+    -------------------------------------------------------------------------
+  PROGRAM MODULE, NAME : m_fcom5
+
+  SEGMENTS IN THE MODULE
+  ======================
+__aseg
+  Relative segment, address: 00000000, align: 0
+  Segment part 1. ROOT.
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?CLRL78_V1_0_L00
+
+Absolute parts
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?CLRL78_V1_0_L00        FFFFFFFF        MCU_init (exemplo10_3)
+                                                   __DebugBreak (?__dbg_break)
+                                                   __call_dtors (?cppinit)
+                                                   __exit (?__exit)
+                                                   exit (?exit)
+                                                   main (exemplo10_3)
+                                                   trata_DMA_tx_uart2 (exemplo10_3)
+                                                   trata_rx_UART2 (exemplo10_3)
+                                                   trata_tx_UART2 (exemplo10_3)
+                                                   tx_UART2 (exemplo10_3)
+  SEGMENTS IN THE MODULE
+  ======================
+__aseg
+  Relative segment, address: 00000000, align: 0
+  Segment part 1. ROOT.
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?ULONG_CMP_L03
+
+  SEGMENTS IN THE MODULE
+  ======================
+__aseg
+  Relative segment, address: 00000000, align: 0
+  Segment part 1. ROOT.
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?FUNCTION_LEAVE_L06
+
+  SEGMENTS IN THE MODULE
+  ======================
+__aseg
+  Relative segment, address: 00000000, align: 0
+  Segment part 1. ROOT.
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?MOVE_LONG_OBJECT_L06
+
+  SEGMENTS IN THE MODULE
+  ======================
+__aseg
+  Relative segment, address: 00000000, align: 0
+  Segment part 1. ROOT.
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?LONG_FLOAT_DEALLOC_STAT_L06
+
+  SEGMENTS IN THE MODULE
+  ======================
+__aseg
+  Relative segment, address: 00000000, align: 0
+  Segment part 1. ROOT.
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?WRKSEG_DEFINE_L09
+
+  SEGMENTS IN THE MODULE
+  ======================
+__aseg
+  Relative segment, address: 00000000, align: 0
+  Segment part 1. ROOT.
+
+    -------------------------------------------------------------------------
+  PROGRAM MODULE, NAME : m_fcom6
+
+  SEGMENTS IN THE MODULE
+  ======================
+__aseg
+  Relative segment, address: 00000000, align: 0
+  Segment part 1. ROOT.
+
+
+
+
+                ****************************************
+                *                                      *
+                *            MODULE SUMMARY            *
+                *                                      *
+                ****************************************
+
+Module                   CODE      DATA      CONST
+------                   ----      ----      -----
+                        (Rel)  (Rel)  (Abs)  (Rel)
+?CSTARTUP                  47
+  + common                  2
+?__INIT_NEAR_Z             19
+?__MAIN_CALL                6
+?__dbg_break                3
+?__exit                    16
+?__low_level_init_stub      4
+?_exit                      8
+?cppinit                   46      2
+?exit                       3
+exemplo10_3               215     32     35     42
+  + common                 28
+N/A (command line)               128
+N/A (alignment)
+----------                ---    ---     --     --
+Total:                    367    162     35     42
+  + common                 28
+
+
+                ****************************************
+                *                                      *
+                *              CALL GRAPH              *
+                *                                      *
+                ****************************************
+
+  ->Sub-tree of type: Interrupt function tree that does not make
+                    : indirect calls
+                             CSTACK
+    | Stack used (prev) :  00000000
+  02    tx_UART2
+        | Stack used (prev) :  00000000
+        | + function block  :  0000000A
+  02    tx_UART2
+        | Stack used (prev) :  00000000
+        | + function block  :  0000000A
+        |  Already listed
+  01  trata_rx_UART2
+      | Stack used (prev) :  0000000A
+      | + function block  :  00000010
+  <-Sub-tree of type: Interrupt function tree that does not make
+                    : indirect calls
+    | Stack used          :  0000001A
+
+
+  ->Sub-tree of type: Interrupt function tree that does not make
+                    : indirect calls
+                             CSTACK
+    | Stack used (prev) :  0000001A
+  01  trata_tx_UART2
+      | Stack used (prev) :  0000001A
+      | + function block  :  00000000
+  <-Sub-tree of type: Interrupt function tree that does not make
+                    : indirect calls
+    | Stack used          :  0000001A
+
+
+  ->Sub-tree of type: Interrupt function tree that does not make
+                    : indirect calls
+                             CSTACK
+    | Stack used (prev) :  0000001A
+  01  trata_DMA_tx_uart2
+      | Stack used (prev) :  0000001A
+      | + function block  :  00000000
+  <-Sub-tree of type: Interrupt function tree that does not make
+                    : indirect calls
+    | Stack used          :  0000001A
+
+
+  ->Sub-tree of type: Function tree that makes indirect calls
+                             CSTACK
+    | Stack used (prev) :  0000001A
+  01  __call_dtors
+      | Stack used (prev) :  0000001A
+      | + function block  :  00000002
+  <-Sub-tree of type: Function tree that makes indirect calls
+    | Stack used          :  0000001C
+
+
+  ->Sub-tree of type: Function tree
+                             CSTACK
+    | Stack used (prev) :  0000001C
+  02    tx_UART2
+        | Stack used (prev) :  00000000
+        | + function block  :  0000000A
+        |  Already listed
+  02    MCU_init
+        | Stack used (prev) :  0000001C
+        | + function block  :  00000000
+  01  main
+      | Stack used (prev) :  0000001C
+      | + function block  :  00000000
+  <-Sub-tree of type: Function tree
+    | Stack used          :  0000001C
+
+
+  ->Sub-tree of type: Function tree
+                             CSTACK
+    | Stack used (prev) :  0000001C
+  01  exit
+      | Stack used (prev) :  0000001C
+      | + function block  :  00000000
+  <-Sub-tree of type: Function tree
+    | Stack used          :  0000001C
+
+
+
+
+                ****************************************
+                *                                      *
+                *      SEGMENTS IN ADDRESS ORDER       *
+                *                                      *
+                ****************************************
+
+
+SEGMENT              SPACE    START ADDRESS   END ADDRESS     SIZE  TYPE  ALIGN
+=======              =====    =============   ===========     ====  ====  =====
+__aseg                                  00000000                     rel    0
+INTVEC                             00000000 - 0000001B          1C   com    1
+OPTBYTE                            000000C0 - 000000C3           4   rel    0
+SECUID                             000000C4 - 000000CD           A   rel    1
+RCODE                              000000D8 - 0000012B          54   rel    0
+CODE                               0000012C - 00000238         10D   rel    0
+NEAR_CONST                         00002000 - 00002029          2A   rel    1
+NEAR_A                             000F0070 - 000F0070           1   rel    0
+                                   000F00F0 - 000F00F0           1 
+                                   000F0150 - 000F0153           4 
+                                   000F0158 - 000F015B           4 
+                                   000F0162 - 000F0163           2 
+                                   000F0166 - 000F016B           6 
+NEAR_I                                  000FEF00                     dse    0
+NEAR_Z                             000FEF00 - 000FEF21          22   rel    1
+FAR_Z                                   000FEF22                     rel    0
+CSTACK                             000FEF22 - 000FEFA1          80   rel    1
+SADDR_A                            000FFF01 - 000FFF01           1   rel    0
+                                   000FFF07 - 000FFF07           1 
+NEAR_A                             000FFF21 - 000FFF21           1   rel    0
+                                   000FFF27 - 000FFF27           1 
+                                   000FFF48 - 000FFF4B           4 
+                                   000FFFB0 - 000FFFB0           1 
+                                   000FFFB2 - 000FFFB3           2 
+                                   000FFFB6 - 000FFFB7           2 
+                                   000FFFBA - 000FFFBA           1 
+                                   000FFFBC - 000FFFBC           1 
+NEAR_A                             000FFFE4 - 000FFFE5           2   rel    0
+
+                ****************************************
+                *                                      *
+                *        END OF CROSS REFERENCE        *
+                *                                      *
+                ****************************************
+
+ 395 bytes of CODE  memory
+ 162 bytes of DATA  memory (+ 35 absolute )
+  42 bytes of CONST memory
+
+Errors: none
+Warnings: none
+

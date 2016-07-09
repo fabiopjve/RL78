@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>exemplo11_1/Debug</Project><Project>exemplo11_2/Debug</Project><Project>exemplo11_3/Debug</Project><Project>exemplo11_4/Debug</Project></CurrentConfigs><CurrentProj>exemplo11_4</CurrentProj><OverviewSelected>0</OverviewSelected></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>179</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>993</ColumnWidth1><ColumnWidth2>264</ColumnWidth2><ColumnWidth3>66</ColumnWidth3></Build>
+      <TerminalIO/>
+    <Debug-Log><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1324</ColumnWidth1></Debug-Log></Static>
+    <Windows>
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-3586-27493</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>exemplo11_1</ExpandedNode><ExpandedNode>exemplo11_2</ExpandedNode><ExpandedNode>exemplo11_3</ExpandedNode><ExpandedNode>exemplo11_4</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-23284-27738</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-23345-18176</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Exemplo1\lcd_8x2.c</Filename><XPos>0</XPos><YPos>43</YPos><SelStart>1473</SelStart><SelEnd>1473</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Exemplo2\exemplo11_2.c</Filename><XPos>0</XPos><YPos>122</YPos><SelStart>4900</SelStart><SelEnd>4900</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Exemplo3\exemplo11_3.c</Filename><XPos>0</XPos><YPos>115</YPos><SelStart>4057</SelStart><SelEnd>4057</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Exemplo4\exemplo11_4.c</Filename><XPos>0</XPos><YPos>111</YPos><SelStart>3644</SelStart><SelEnd>3644</SelEnd></Tab><ActiveTab>3</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-012a11c8><key>iaridepm.enu1</key></Toolbar-012a11c8></Sizes></Row0></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>600</Bottom><Right>253</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>144718</sizeHorzCX><sizeHorzCY>237530</sizeHorzCY><sizeVertCX>184515</sizeVertCX><sizeVertCY>714964</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>198</Bottom><Right>1384</Right><x>-2</x><y>-2</y><xscreen>1386</xscreen><yscreen>200</yscreen><sizeHorzCX>1002894</sizeHorzCX><sizeHorzCY>237530</sizeHorzCY><sizeVertCX>144718</sizeVertCX><sizeVertCY>237530</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+
